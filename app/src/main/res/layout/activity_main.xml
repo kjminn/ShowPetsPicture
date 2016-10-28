@@ -16,8 +16,8 @@
         android:text="@string/str_ques1"
         android:textAppearance="?android:textAppearanceLarge"
         />
-    <CheckBox
-        android:id="@+id/check_start"
+    <Switch
+        android:id="@+id/switch_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/str_check"
@@ -62,19 +62,27 @@
             android:visibility="invisible"
             />
     </RadioGroup>
-    <Button
-        android:id="@+id/but_done"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/str_but"
-        android:visibility="invisible"
-        />
+
     <ImageView
         android:id="@+id/img_pet"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:src="@drawable/puppy"
         android:adjustViewBounds="true"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/but_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_but_finish"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/but_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_but_first"
         android:visibility="invisible"
         />
 </LinearLayout>

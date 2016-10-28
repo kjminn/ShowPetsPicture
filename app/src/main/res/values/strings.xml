@@ -6,5 +6,6 @@
     <string name="str_puppy">강아지</string>
     <string name="str_cat">고양이</string>
     <string name="str_rabbit">토끼</string>
-    <string name="str_but">선택완료</string>
+    <string name="str_but_finish">종료</string>
+    <string name="str_but_first">처음으로</string>
 </resources>
